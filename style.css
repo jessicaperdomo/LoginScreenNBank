@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right,rgb(170, 166, 204), rgb(139, 131, 202),rgb(89, 72, 238));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 30px;
+
+    background-color: aliceblue;
+    max-width: 80%;
+    margin-top: 8%;
+}
+
+.Login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1%;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.img-welcome-signIn {
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.nbank-img {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+
+    border-radius: 30px 0 0px 30px;
+}
+
+.organizeInputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mg-1 {
+    margin-bottom: 5%;
+}
+
+.title {
+    font-family: 'Klee One', cursive;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.font {
+    font-family: 'Klee One', cursive;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btn-sub {
+    color: white;
+    background-color:  #3d4662;
+
+    padding: 2% 4% 2% 4%;
+    border-radius: 5%;
+    border-style: none;
+}
+
+.btn-sub:hover{
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    background: rgb(28, 29, 44);
+}
+
+.inp-design {
+    padding: 1% 8% 1% 8%;
+
+    border-style: none;
+    border-radius: 1%;
+
+    outline: 0.5px solid rgb(163, 162, 162); 
+}
+
+.inp-design:focus {
+    outline: 1px solid rgb(118, 109, 248); 
+}
+
+.linkD {
+    text-decoration: none;
+    list-style: none;
+}
+
+.linkD:hover {
+    color:  #32beff;
+}
