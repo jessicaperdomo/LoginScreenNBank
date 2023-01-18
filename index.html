@@ -1,4 +1,4 @@
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Lilita+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="principal">
@@ -19,17 +20,17 @@
         </div>
         <div class="Login">
             <p class="title mg-1">Sign In</p>
-            
-            <input class="mg-1 inp-design" type="text" id="name" name="name" placeholder="Username or e-mail">
-            <input class="mg-1 inp-design" type="password" placeholder="Password">
+            <form class="Login">
+                <input class="mg-1 inp-design" id="name" type="text" name="name" placeholder="Username or e-mail" autocomplete="on" required>
+                <input class="mg-1 inp-design" id="passwordLogin" type="password" name="password" placeholder="Password" autocomplete="on" required>
 
-            <div class="organizeInputs-2 mg-1">
-                <input class="mg-1" type="checkbox" name="rememberMe" id="rememberMe">
-                <label class="mg-1 font" for="rememberMe">Remember me</label>
-            </div>
-            
-            <input class="mg-1 btn-sub" type="button" value="SIGN IN">
-
+                <div class="organizeInputs-2 mg-1">
+                    <input class="mg-1" type="checkbox" name="rememberMe" id="rememberMe">
+                    <label class="mg-1 font" for="rememberMe">Remember me</label>
+                </div>
+                
+                <button class="mg-1 btn-sub" type="submit">SIGN IN</button>
+            </form>
             <a class="font linkD" href="">Forgot password?</a>
             <p class="mg-1 font">New here? <a class="linkD" href="">Create a new account</a></p>
         </div>
